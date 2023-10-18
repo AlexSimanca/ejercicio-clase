@@ -201,20 +201,20 @@ class Vuelo {
 public class Main {
     public static void main(String[] args) {
         Pasajero pasajero1 = new Pasajero();
-        pasajero1.setNombres("Juan");
-        pasajero1.setApellidos("Perez");
+        pasajero1.setNombres("Alex");
+        pasajero1.setApellidos("Simanca");
         pasajero1.setNumPasaporte("12345");
         pasajero1.setAsiento("A1");
-        pasajero1.setEdad(30);
+        pasajero1.setEdad(20);
 
         Pasajero pasajero2 = new Pasajero();
-        pasajero2.setNombres("Maria");
-        pasajero2.setApellidos("Lopez");
-        pasajero2.setNumPasaporte("54321");
+        pasajero2.setNombres("Alejandro");
+        pasajero2.setApellidos("Dallos");
+        pasajero2.setNumPasaporte("67890");
         pasajero2.setAsiento("B2");
-        pasajero2.setEdad(25);
+        pasajero2.setEdad(21);
 
-        Vuelo vuelo = new Vuelo("Vuelo001", "V001", "Ciudad A", "Ciudad B", 100);
+        Vuelo vuelo = new Vuelo("Vuelo001", "V001", "Bogota", "Cali", 100);
 
         vuelo.agregarPasajero(pasajero1.getNombres(), pasajero1.getApellidos(), pasajero1.getNumPasaporte(), pasajero1.getAsiento(), pasajero1.getEdad());
         vuelo.agregarPasajero(pasajero2.getNombres(), pasajero2.getApellidos(), pasajero2.getNumPasaporte(), pasajero2.getAsiento(), pasajero2.getEdad());
